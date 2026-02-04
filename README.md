@@ -1,7 +1,7 @@
 # Prestack-impedances-density-inversion
 MATLAB implementation of Seismic pre-stack inversion using iterative, nonlinear quasi-second-order optimization techniques, accompanying Ahmed et al., Mathematical Geosciences (2026).
 
-# Pre-stack AVO Seismic Inversion using Quasi-Second-Order Optimization
+# Title: Seismic pre-stack inversion using iterative, nonlinear quasi-second-order optimization techniques
 
 Ahmed, M. et al. (2026). *Seismic pre-stack inversion using iterative, nonlinear quasi-second-order optimization techniques*. Mathematical Geosciences.
 
