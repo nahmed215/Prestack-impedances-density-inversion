@@ -8,21 +8,22 @@ Ahmed, M. et al. (2026). *Seismic pre-stack inversion using iterative, nonlinear
 ## Overview
 
 The code implements:
-- Aki–Richards / Fatti linearized reflectivity modeling
-- Adjoint-state gradient computation
-- L-BFGS and nonlinear conjugate gradient optimization
-- Tikhonov and TV regularization
+- Aki–Richards (1980) linearized reflectivity modeling (Used gradient equations B2-B4: Appendix B of Ahmed et al. (2026))
+- Fatti et al. (1994) linearized reflectivity modeling (Used gradient equations A2-A4: Appendix A of Ahmed et al. (2026))
+- Adjoint-state gradient computation (See equations A2 - A4 and B2 - B4, Appendix A/B of Ahmed et al. (2026))
+- L-BFGS optimization
+- Tikhonov regularization
 
 ## Requirements
 - MATLAB R2020 or newer
 
 ## How to run
 
-1. Open `Inversion folder
+1. Open `Inversion folders: (INVERSION_AkiRichardsEquation.zip or INVERSION_FattiEquation.zip)
 2. Run the forward model - Step 1
 3. Run the script ''run inversion
 
 ## Repository structure
 
-Two folders for each inversion - using Fatti et al and Aki and Richards equations
+Two folders for each inversion - using Fatti et al. and Aki and Richards equations
 
